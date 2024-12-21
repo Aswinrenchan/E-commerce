@@ -1,0 +1,128 @@
+/* Dark Theme Styling */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+.product-detail {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #e5e5e5;
+}
+
+.product-category {
+    font-size: 18px;
+    color: #a0a0a0;
+}
+
+.product-body {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-image-container {
+    flex: 1;
+    text-align: center;
+}
+
+.product-image {
+    max-width: 100%;
+    max-height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.product-info {
+    flex: 1;
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.product-info p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.product-info strong {
+    font-size: 20px;
+    color: #f1c40f;
+}
+
+.buy-now-button {
+    background-color: #e67e22;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.buy-now-button:hover {
+    background-color: #d35400;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+.select-field {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+.offers-button {
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.offers-button:hover {
+    background-color: #27ae60;
+}
+
+.offers {
+    margin-top: 20px;
+    background-color: #2c3e50;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.offers p {
+    font-size: 18px;
+    color: #f1c40f;
+}
